@@ -8,10 +8,12 @@ export const About = () => {
     "GSAP",
     "Framer Motion",
     "LocomotiveJS",
-    "SwiperJS"
+    "SwiperJS",
+    "Skipper.ui",
+    "Cult.ui"
   ];
 
-  const backendSkills = ["Node.js", "Python", ];
+  const backendSkills = ["Node.js", "Python", "Express.js", "Next.js"];
 
   return (
     <section
@@ -90,10 +92,7 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at Voot tech Pvt Ltd  (Oct 2024 - Present){" "}
-                  </h4>
+                  
                   <p>
                     Developed and maintained microservices for cloud-based
                     applications.
