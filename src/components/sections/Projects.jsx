@@ -35,7 +35,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://e-commerce-website-by-me.netlify.app/"
+                  href="https://e-commerce-web-sh.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
