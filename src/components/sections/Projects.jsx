@@ -13,35 +13,99 @@ export const Projects = () => {
             Featured Projects
           </h2>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">E-commerce Website</h3>
-              <p className="text-gray-400 mb-4">
-                This responsive e-commerce website features a modern UI, smooth navigation, and a well-structured product grid for an intuitive shopping experience.
-                Built using HTML, CSS, JavaScript, React.js, Tailwind CSS, and Netlify for hosting, it combines aesthetics with functionality to deliver a 
-                professional online store feel.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <h3 className="text-xl font-bold mb-2">Dashboard Web App</h3>
+            <p className="text-gray-400 mb-4">
+              <span className="font-mono text-sm">Next.js · TypeScript · Tailwind CSS · ShadCN UI</span>
+              Built a responsive dashboard with charts, cards, and task management features.
+              Used TypeScript for type safety and better code organization.
+              Styled with Tailwind CSS and ShadCN for a consistent UI.
+              Added dark/light theme support.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"].map((tech, key) => (
+                <span
+                  key={key}
+                  className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                     "
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://e-commerce-web-sh.netlify.app/"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project →
-                </a>
-              </div>
+                  {tech}
+                </span>
+              ))}
             </div>
+
+            <div className="flex justify-between items-center">
+              <a
+                href="https://anjali-dashboard.vercel.app/"
+                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <h3 className="text-xl font-bold mb-2">Skiper.ui Clone</h3>
+            <p className="text-gray-400 mb-4">
+              Developed a responsive web application using Next.js, React, and TypeScript, ensuring smooth performance across devices.
+              Implemented modern UI/UX with TailwindCSS, shadcn/ui, and Framer Motion, creating interactive and elegant components.
+              Built reusable card carousel and custom UI components for scalability and maintainability.
+              Integrated light/dark theme toggle with consistent styling across pages.conflicts and deployment errors independently.
+              Debugged and fixed production-only issues (like image loading on Vercel), gaining real-world deployment experience.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"].map((tech, key) => (
+                <span
+                  key={key}
+                  className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                    "
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            <div className="flex justify-between items-center">
+              <a
+                href="https://skiper-ui-webb.vercel.app/"
+                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <h3 className="text-xl font-bold mb-2">E-commerce Website</h3>
+            <p className="text-gray-400 mb-4">
+              This responsive e-commerce website features a modern UI, smooth navigation, and a well-structured product grid for an intuitive shopping experience.
+              Built using HTML, CSS, JavaScript, React.js, Tailwind CSS, and Netlify for hosting, it combines aesthetics with functionality to deliver a
+              professional online store feel.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"].map((tech, key) => (
+                <span
+                  key={key}
+                  className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                    "
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            <div className="flex justify-between items-center">
+              <a
+                href="https://e-commerce-web-sh.netlify.app/"
+                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
@@ -247,7 +311,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            
+
           </div>
         </div>
       </RevealOnScroll>
