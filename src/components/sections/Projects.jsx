@@ -68,6 +68,15 @@ const projectsData = [
     tech: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://elegant-swan-f286d0.netlify.app/",
   },
+   {
+    id: 7,
+    title: "Earthquake Visualizer",
+    description:
+      "An interactive web application that visualizes recent earthquake data on a world map using Leaflet.js and D3.js. Users can filter earthquakes by magnitude and date range.",
+    tech: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://earthquake-visualizerrr.netlify.app/",
+  },
+
 
 ];
 
